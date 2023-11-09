@@ -4,6 +4,7 @@ package com.example.demo.dto;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
@@ -18,6 +19,7 @@ public class Articulo {
 	private double precio;
 	
 	@ManyToOne
+	@JoinColumn(name="fabricante_id")
 	private Fabricante fabricante;
 	
 	public Articulo () {}

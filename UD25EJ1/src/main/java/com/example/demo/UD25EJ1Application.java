@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProjectMavenUd14H21Application {
+public class UD25EJ1Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProjectMavenUd14H21Application.class, args);
+		SpringApplication.run(UD25EJ1Application.class, args);
 	}
 
 }
