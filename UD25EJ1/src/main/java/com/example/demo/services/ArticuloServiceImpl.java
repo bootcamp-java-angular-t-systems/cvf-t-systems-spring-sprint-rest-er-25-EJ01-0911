@@ -33,6 +33,4 @@ public class ArticuloServiceImpl {
 	public void delete(int id) {
 		articuloDAO.deleteById(id);
 	}
-	
-	
 }

@@ -18,7 +18,7 @@ import com.example.demo.services.ArticuloServiceImpl;
 @RequestMapping("/articulo")
 @RestController
 public class ArticuloController {
-	
+
 	@Autowired
 	ArticuloServiceImpl articuloService;
 	

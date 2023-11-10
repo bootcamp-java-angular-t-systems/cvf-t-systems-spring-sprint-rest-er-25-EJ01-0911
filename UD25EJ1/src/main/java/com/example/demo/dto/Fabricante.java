@@ -27,22 +27,21 @@ public class Fabricante {
 		
 	
 	public Fabricante(int id, String nombre) {
-		super();
+		//super();
 		this.id = id;
 		this.nombre = nombre;
 	}
-
-
+	
 	public Fabricante() {
-		super();
+		//super();
 	}
 
-
+	
 	public int getId() {
 		return id;
 	}
 
-
+	
 	public void setId(int id) {
 		this.id = id;
 	}
@@ -73,7 +72,5 @@ public class Fabricante {
 	public String toString() {
 		return "Fabricante [id=" + id + ", nombre=" + nombre + "]";
 	}
-	
-	
 
 }
