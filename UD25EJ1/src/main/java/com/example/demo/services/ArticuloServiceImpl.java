@@ -9,7 +9,7 @@ import com.example.demo.dao.IArticuloDAO;
 import com.example.demo.dto.Articulo;
 
 @Service
-public class ArticuloServiceImpl {
+public class ArticuloServiceImpl implements IArticuloService {
 
 	@Autowired
 	IArticuloDAO articuloDAO;
